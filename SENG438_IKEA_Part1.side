@@ -1,0 +1,237 @@
+{
+  "id": "32c0beb2-863d-4b27-96ed-5553c6a3ea76",
+  "version": "2.0",
+  "name": "Assignment4 ",
+  "url": "https://www.ikea.com",
+  "tests": [{
+    "id": "fde1dfb0-c38d-4b7e-b99f-7c99db68795f",
+    "name": "addItemToCart",
+    "commands": [{
+      "id": "ab045667-d056-46de-9855-9bf3bbe0e392",
+      "comment": "",
+      "command": "open",
+      "target": "/ca/en/p/klippan-loveseat-bomstad-black-50399318/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "234012cc-46b9-4b40-874d-69987dabafe4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9b06694-b4cb-4e73-b2de-236d37c3682e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pip-btn--fluid .pip-btn__label",
+      "targets": [
+        ["css=.pip-btn--fluid .pip-btn__label", "css:finder"],
+        ["xpath=//div[@id='pip-buy-module-content']/div[7]/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d405088b-5ba9-46c7-a7b7-bd9ba7b1fd9c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continue to cart",
+      "targets": [
+        ["linkText=Continue to cart", "linkText"],
+        ["css=.rec-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Continue to cart')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/shoppingcart/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continue to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f7818098-a0ec-4369-87b8-f1ac2ac262b1",
+    "name": "goToWishlistFromMain",
+    "commands": [{
+      "id": "3eac952b-6a56-4aa9-8e63-7f1070871065",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4525bca-ce60-46cf-9bae-aebe1714a737",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3fd30df-713d-4d77-aa2f-49a7643ee314",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svelte-4987es .website-link",
+      "targets": [
+        ["css=.svelte-4987es .website-link", "css:finder"],
+        ["xpath=//div[@id='mountId']/div/main/div/div/div/section/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/?ref=gwp-start')])[2]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "720f847d-e5dc-46b0-901b-0a64396bd328",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-header__shopping-list-link .hnf-btn__inner",
+      "targets": [
+        ["css=.hnf-header__shopping-list-link .hnf-btn__inner", "css:finder"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shopping list')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b77bb1ce-e26c-456b-8753-5d1cc4c2c7bb",
+    "name": "createNewListInShoppingList",
+    "commands": [{
+      "id": "5fcf8b44-e2d4-4b9c-8a54-e5f1df22c516",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96e48e76-f1a2-4f5c-86f0-9a97a189807b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb75a829-7f8d-4aee-88c8-8e28b60eef1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svelte-4987es .website-link",
+      "targets": [
+        ["css=.svelte-4987es .website-link", "css:finder"],
+        ["xpath=//div[@id='mountId']/div/main/div/div/div/section/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/?ref=gwp-start')])[2]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37437341-44e2-47e4-88d4-32f4b84bc93b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-header__shopping-list-link .hnf-btn__inner",
+      "targets": [
+        ["css=.hnf-header__shopping-list-link .hnf-btn__inner", "css:finder"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shopping list')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90cd6889-52ec-45fa-8c5c-3baac96671bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small .hnf-btn__label",
+      "targets": [
+        ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small .hnf-btn__label", "css:finder"],
+        ["xpath=//li[@id='hnf-header-postalcodepicker']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0347379-e0fb-429b-8193-af366b98b7a5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small .hnf-btn__label",
+      "targets": [
+        ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small .hnf-btn__label", "css:finder"],
+        ["xpath=//li[@id='hnf-header-postalcodepicker']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cccc05b6-4deb-4df8-8ba1-6da9af1ef9fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-ingka-btn__label:nth-child(2)",
+      "targets": [
+        ["css=.list-ingka-btn__label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div/div[2]/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbcdfe67-ff9a-48cd-bd81-02b4ab009ec6",
+      "comment": "",
+      "command": "type",
+      "target": "id=new-list-form-input",
+      "targets": [
+        ["id=new-list-form-input", "id"],
+        ["css=#new-list-form-input", "css:finder"],
+        ["xpath=//input[@id='new-list-form-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "851d85e7-93e4-40d0-b485-b99cc80c48ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NewListForm_buttonContainer__14Zz8 > .list-ingka-btn:nth-child(1) path",
+      "targets": [
+        ["css=.NewListForm_buttonContainer__14Zz8 > .list-ingka-btn:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "23b81e85-d8a8-44de-9f83-53070491ee00",
+    "name": "goToCart",
+    "commands": [{
+      "id": "d1fe3aaf-29a8-4f83-aeff-ef6ec4cf8f18",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "848a8dfd-7b6a-4ded-9ab6-44f5c10a8914",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9543e76-f095-4a31-8b84-05bff63cd178",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svelte-4987es .website-link",
+      "targets": [
+        ["css=.svelte-4987es .website-link", "css:finder"],
+        ["xpath=//div[@id='mountId']/div/main/div/div/div/section/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/?ref=gwp-start')])[2]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "264c4f58-2caa-4ea0-a2a2-86e7f8eb9d78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-shopping-cart-icon",
+      "targets": [
+        ["css=.js-shopping-cart-icon", "css:finder"],
+        ["xpath=//li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a6a73a99-a6e7-4334-ab58-24e2ece91eb2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ikea.com/"],
+  "plugins": []
+}
